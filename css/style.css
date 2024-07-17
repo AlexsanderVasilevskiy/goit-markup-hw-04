@@ -114,8 +114,8 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
-  backaround-oosition: center;
+    url(../images/img-name.jpeg/people-office\ 1.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -136,7 +136,7 @@ a {
 /* button */
 .button {
   display: block;
-
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
