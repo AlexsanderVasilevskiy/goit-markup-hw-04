@@ -281,6 +281,8 @@ a {
 
 }
 .team-icons-list{
+  
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,7 +299,11 @@ a {
   color: #434455;
 }
 .social-team-icon{
-  background-color: #4d5ae5;
+  
+  
+  margin-top: 8px;
+  fill: #4d5ae5;
+  
 }
 /* ourportfolio */
 .port {
