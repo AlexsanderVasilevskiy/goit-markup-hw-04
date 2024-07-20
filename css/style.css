@@ -377,6 +377,7 @@ a {
 
 /* footer */
 .page-footer {
+  
   padding: 100px 0;
   background: #2e2f42;
 }
@@ -413,10 +414,13 @@ a {
 
 .footer-social {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
 }
 .footer-social-text {
+  margin-bottom: 16px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
