@@ -291,11 +291,12 @@ a {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   border-radius: 50%;
 }
 .social-team-icon {
-  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
   fill: #ffffff;
 }
 .team-text {
@@ -307,6 +308,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 /* ourportfolio */
