@@ -189,11 +189,10 @@ a {
   height: 112px;
   background-color: #f4f4fd;
 }
-.icon{
+.icon {
   width: 64px;
   height: 64px;
   align-items: center;
-  
 }
 .visually-hidden {
   position: absolute;
@@ -276,7 +275,16 @@ a {
   color: #2e2f42;
 }
 .team-subtitle-class {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   padding: 32px 0;
+
+}
+.team-icons-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 .team-text {
   font-family: "Roboto", sans-serif;
@@ -288,7 +296,9 @@ a {
   text-align: center;
   color: #434455;
 }
-
+.social-team-icon{
+  background-color: #4d5ae5;
+}
 /* ourportfolio */
 .port {
   padding: 120px 0 120px 0;
