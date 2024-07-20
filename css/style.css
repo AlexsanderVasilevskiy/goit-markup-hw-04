@@ -85,7 +85,7 @@ a {
 .nav-link.current {
   position: relative;
 }
-.nav-link.current::before {
+.nav-link.current::after {
   content: "";
   position: absolute;
   border-radius: 2px;
