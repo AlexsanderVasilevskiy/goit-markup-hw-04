@@ -296,8 +296,9 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-list-social:hover,
-.team-list-social:focus
-{background-color: #404bbf;}
+.team-list-social:focus {
+  background-color: #404bbf;
+}
 
 .social-team-icon {
   justify-content: center;
@@ -321,11 +322,13 @@ a {
   padding: 120px 0 120px 0;
 }
 .port-subtitle-class {
+  
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 .port-subtitle {
+  
   margin-bottom: 8px;
 }
 .port-title {
@@ -345,7 +348,14 @@ a {
   row-gap: 48px;
 }
 .port-item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: calc((100% - 48px) / 3);
+}
+.port-item:hover{
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .port-subtitle {
   font-family: "Roboto", sans-serif;
