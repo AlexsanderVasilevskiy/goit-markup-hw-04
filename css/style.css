@@ -412,7 +412,7 @@ a {
 
 .footer-social {
   display: block;
-  justify-content: center
+  justify-content: center;
   align-items: center;
   margin-right: 552px;
 }
@@ -446,6 +446,6 @@ a {
 .footer-list-soc:focus {
   background-color: #31d0aa;
 }
-.social-team-icon{
+.social-team-icon {
   fill: #f4f4fd;
 }
