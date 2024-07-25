@@ -407,9 +407,6 @@ a {
   align-items: baseline;
   margin-right: 120px;
 }
-.container {
-  margin-left: 120px;
-}
 
 .logo-footer {
   margin-right: 120px;
@@ -433,7 +430,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-right: 120px;
 }
 
 .footer-social {
