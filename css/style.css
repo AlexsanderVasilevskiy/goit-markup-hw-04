@@ -405,6 +405,7 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
+  margin-right: 120px;
 }
 .container {
   margin-left: 120px;
