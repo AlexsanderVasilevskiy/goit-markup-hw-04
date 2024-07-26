@@ -35,7 +35,8 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-.header-container {
+.header-container,
+.footer-container {
   display: flex;
 }
 /* class header*/
@@ -401,11 +402,15 @@ a {
   padding: 100px 0;
   background: #2e2f42;
 }
-.footer-content {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+.footer-container {
+  di
   margin-right: 120px;
+}
+
+.logo-wraper { 
+  display:block;
+  margin-right: 120px;
+  
 }
 
 .logo-footer {
@@ -419,9 +424,11 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  
 }
 .footer-logo-part {
   color: #f4f4fd;
+  
 }
 .footer-text {
   margin-bottom: 16px;
@@ -431,12 +438,10 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
 .footer-social {
   display: block;
   justify-content: center;
   align-items: center;
-  margin-right: 552px;
 }
 .footer-social-text {
   margin-bottom: 16px;
